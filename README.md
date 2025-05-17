@@ -89,7 +89,7 @@ axios.get(API_URL, {
 });
 ```
 
-5. Proteção [CSRF](CSRF) Automática
+5. Proteção [CSRF](CSRF.md) Automática
 
 ```sh
 // Axios automaticamente envia cabeçalhos XSRF-TOKEN
