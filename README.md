@@ -6,31 +6,32 @@ Um aplicativo web moderno para extrair e exibir informações detalhadas de film
 
 ✨ Funcionalidades Principais
 
-    🔍 Busca por ID do IMDb (ex: tt0944947)
+- 🔍 Busca por ID do IMDb (ex: tt0944947)
 
-    🎬 Exibição completa de informações do título
+- 🎬 Exibição completa de informações do título
 
-    📊 Sistema de avaliação com estrelas
+- 📊 Sistema de avaliação com estrelas
 
-    🎥 Visualização de elenco e equipe técnica
+- 🎥 Visualização de elenco e equipe técnica
 
-    📱 Design totalmente responsivo
+- 📱 Design totalmente responsivo
 
-    ⚡ Performance otimizada com Vite
+-⚡ Performance otimizada com Vite
 
-    🔄 Busca automática via parâmetro de URL
+- 🔄 Busca automática via parâmetro de URL
 
 🛠 Stack Tecnológica
 
-    React 18 - Biblioteca front-end
+### React 18 - Biblioteca front-end
 
-    Vite - Build tool ultrarrápido
+### Vite - Build tool ultrarrápido
 
-    Axios - Cliente HTTP para requisições robustas
+### Axios - Cliente HTTP para requisições robustas
 
-    CSS Modules - Estilização componentizada
+### CSS Modules - Estilização componentizada
 
-🚀 Benefícios do Axios
+
+## 🚀 Benefícios do Axios
 
 1. Interceptores Poderosos
 
@@ -96,7 +97,7 @@ axios.defaults.xsrfCookieName = 'csrftoken';
 axios.defaults.xsrfHeaderName = 'X-CSRFToken';
 ```
 
-🏗️ Estrutura do Projeto
+## 🏗️ Estrutura do Projeto
 
 ```sh
 src/
@@ -108,7 +109,7 @@ src/
 └── styles/          # Arquivos de estilo
 ```
 
-🚀 Como Executar
+## 🚀 Como Executar
 Pré-requisitos
 
 - Node.js (v16+)
@@ -135,7 +136,7 @@ Build para Produção
 npm run build
 ```
 
-🌍 API Utilizada
+## 🌍 API Utilizada
 
 O projeto consome a API não-oficial do IMDb:
 
@@ -143,7 +144,7 @@ O projeto consome a API não-oficial do IMDb:
 https://graph.imdbapi.dev/v1
 ```
 
-🤝 Como Contribuir
+## 🤝 Como Contribuir
 
 - Faça um fork do projeto
 
