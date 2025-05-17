@@ -1,5 +1,6 @@
-**_A proteção CSRF (Cross-Site Request Forgery)_** é essencial para proteger sites contra ataques que induzem os usuários a realizar ações indesejadas em sites onde estão autenticados. Uma das formas mais comuns de proteger contra CSRF é utilizar tokens CSRF, que são gerados de forma única e segura pelo servidor e incluídos nos formulários.
-Como funciona a proteção CSRF?
+***A proteção CSRF (Cross-Site Request Forgery)*** é essencial para proteger sites contra ataques que induzem os usuários a realizar ações indesejadas em sites onde estão autenticados. Uma das formas mais comuns de proteger contra CSRF é utilizar tokens CSRF, que são gerados de forma única e segura pelo servidor e incluídos nos formulários.
+
+***Como funciona a proteção CSRF?***
 
 1. Geração de Tokens:
    O servidor gera um token CSRF único para cada sessão de usuário autenticado.
@@ -13,7 +14,7 @@ Como funciona a proteção CSRF?
 4. Evitando ataques CSRF:
    Um invasor precisa descobrir e usar o token CSRF da vítima para induzi-la a realizar ações não autorizadas, o que é difícil, pois o token é gerado de forma única e segura pelo servidor e armazenado na sessão do usuário.
 
-Outras medidas de proteção:
+***Outras medidas de proteção:***
 
 - Verificação do cabeçalho Referer:
   Embora não seja uma solução 100% confiável, verificar o cabeçalho Referer pode ajudar a identificar solicitações não esperadas, pois ele indica a página de origem da solicitação.
